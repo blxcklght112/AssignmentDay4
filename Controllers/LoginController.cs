@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CS_DotnetCoreDay4.Controllers
 {
-    // [Route("[controller]")]
     public class LoginController : Controller
     {
         private readonly ILogger<LoginController> _logger;
